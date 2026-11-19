@@ -96,4 +96,7 @@ class CollectorTest(unittest.TestCase):
         self.assertEqual(rows[2]["event"]["data"]["session_call_index"], 1)
         trace[2][1].clear()
         trace[2][1]["tool_call_id"] = "call"
-        self.assertIsNone(list(scenario_records(events, "example", "prompt_injected"))[0]["label"])
+        self.assertEqual(
+            list(scenario_records(events, "example", "prompt_injected"))[0]["label"],
+            "insufficient_evidence",
+        )

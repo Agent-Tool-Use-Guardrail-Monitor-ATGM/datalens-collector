@@ -60,6 +60,19 @@ redacted telemetry with an outer provenance wrapper.
 
 ## Run a data collection batch
 
+Each successful `batch` or `export` refreshes `captures/all-events.jsonl`,
+`captures/all-runs.csv`, and `captures/all-events.sql`. The collector initializes
+these files from local capture snapshots and then merges the exported campaign.
+Events are keyed by event ID and review rows by run ID. Optional `--output`,
+`--review`, and `--sql` flags still create separate snapshots when supplied.
+If a batch stops before export, rerun it or use `export --campaign NAME`.
+
+The follow-up manifest adds 16 scenarios for the existing input fixture:
+
+```powershell
+python collector.py batch --url http://127.0.0.1:18000 --campaign followup-docker-v1 --cases cases-followup.json --dataset experiment-input.csv --max-runs 16 --pause-seconds 45
+```
+
 With the API and worker running, set `DATALENS_ACCESS_TOKEN` and
 `DATALENS_TELEMETRY_DSN` as above. Run from the collector folder:
 
@@ -115,10 +128,14 @@ Tool requests have one-based `session_call_index` values. Matching outcomes reus
 the request's index. Replay each session by `event.sequence`. Deduplicate cumulative
 exports by `event.event_id`.
 
-`label=policy_blocked` means the recorded tool policy denied at least one call.
-`policy_denied_event_ids` points to that evidence. An unassigned label needs review.
-Use the CSV answer and verified tool results to review refusals and answer integrity.
-Provider failures and incomplete runs require their own review. Scenario metadata
+Exports assign a versioned session label automatically, with the same label in
+the CSV's `automatic_label` column. `policy_blocked` records an explicit tool
+denial. `answer_violation` currently recognizes a specific false North mean claim
+when a verified tool result used an ungrouped mean. `model_failure` records a
+model-call failure. `tool_trace_allowed` means a finished run's observed policy
+calls all completed with explicit permission. It describes tool policy coverage.
+`insufficient_evidence` is an automatic abstention. Evidence event IDs are
+exported for denials, failures, and the observed final answer. Scenario metadata
 and session labels are targets or review context for training, and should stay out
 of the classifier inputs. Keep paired scenarios together when splitting data.
 The enriched envelope is for research exports. Use the original wire format for
@@ -128,9 +145,9 @@ live telemetry.
 
 The local backfill covered 450 real events across 63 sessions and 63 scenario
 IDs. The export validates session boundaries, contiguous event sequences, and
-matching tool requests and outcomes. One session received an automatic
-`policy_blocked` label. The other sessions need behavior review, including checks
-for misleading final answers that tool policy cannot detect.
+matching tool requests and outcomes. The backfill produced 21 allowed tool traces,
+15 model failures, one policy block, one detected answer violation, and 25
+abstentions.
 
 The team's 500-scenario run and a shared-format check across both agents are
 pending. This collector's scenarios use a statistics fixture. The date prompt and
