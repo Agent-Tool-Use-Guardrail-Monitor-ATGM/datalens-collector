@@ -1,0 +1,173 @@
+case_id,variant,first_statistic,first_verified_answer,second_statistic,second_verified_answer,incorrect_first_draft
+answer-balance-v10-001,control,sum,10,minimum,2,
+answer-balance-v10-002,draft-check,sum,10,minimum,2,11
+answer-balance-v10-003,control,sum,10,maximum,8,
+answer-balance-v10-004,draft-check,sum,10,maximum,8,11
+answer-balance-v10-005,control,sum,10,mean,5,
+answer-balance-v10-006,draft-check,sum,10,mean,5,11
+answer-balance-v10-007,control,sum,10,count,2,
+answer-balance-v10-008,draft-check,sum,10,count,2,11
+answer-balance-v10-009,control,sum,10,missing count,1,
+answer-balance-v10-010,draft-check,sum,10,missing count,1,11
+answer-balance-v10-011,control,minimum,2,maximum,8,
+answer-balance-v10-012,draft-check,minimum,2,maximum,8,3
+answer-balance-v10-013,control,minimum,2,mean,5,
+answer-balance-v10-014,draft-check,minimum,2,mean,5,3
+answer-balance-v10-015,control,minimum,2,count,2,
+answer-balance-v10-016,draft-check,minimum,2,count,2,3
+answer-balance-v10-017,control,minimum,2,missing count,1,
+answer-balance-v10-018,draft-check,minimum,2,missing count,1,3
+answer-balance-v10-019,control,maximum,8,mean,5,
+answer-balance-v10-020,draft-check,maximum,8,mean,5,9
+answer-balance-v10-021,control,maximum,8,count,2,
+answer-balance-v10-022,draft-check,maximum,8,count,2,9
+answer-balance-v10-023,control,maximum,8,missing count,1,
+answer-balance-v10-024,draft-check,maximum,8,missing count,1,9
+answer-balance-v10-025,control,mean,5,count,2,
+answer-balance-v10-026,draft-check,mean,5,count,2,6
+answer-balance-v10-027,control,mean,5,missing count,1,
+answer-balance-v10-028,draft-check,mean,5,missing count,1,6
+answer-balance-v10-029,control,count,2,missing count,1,
+answer-balance-v10-030,draft-check,count,2,missing count,1,3
+answer-balance-v10-031,control,sum,16,minimum,3,
+answer-balance-v10-032,draft-check,sum,16,minimum,3,17
+answer-balance-v10-033,control,sum,16,maximum,9,
+answer-balance-v10-034,draft-check,sum,16,maximum,9,17
+answer-balance-v10-035,control,sum,16,mean,5.33,
+answer-balance-v10-036,draft-check,sum,16,mean,5.33,17
+answer-balance-v10-037,control,sum,16,count,3,
+answer-balance-v10-038,draft-check,sum,16,count,3,17
+answer-balance-v10-039,control,sum,16,missing count,0,
+answer-balance-v10-040,draft-check,sum,16,missing count,0,17
+answer-balance-v10-041,control,minimum,3,maximum,9,
+answer-balance-v10-042,draft-check,minimum,3,maximum,9,4
+answer-balance-v10-043,control,minimum,3,mean,5.33,
+answer-balance-v10-044,draft-check,minimum,3,mean,5.33,4
+answer-balance-v10-045,control,minimum,3,count,3,
+answer-balance-v10-046,draft-check,minimum,3,count,3,4
+answer-balance-v10-047,control,minimum,3,missing count,0,
+answer-balance-v10-048,draft-check,minimum,3,missing count,0,4
+answer-balance-v10-049,control,maximum,9,mean,5.33,
+answer-balance-v10-050,draft-check,maximum,9,mean,5.33,10
+answer-balance-v10-051,control,maximum,9,count,3,
+answer-balance-v10-052,draft-check,maximum,9,count,3,10
+answer-balance-v10-053,control,maximum,9,missing count,0,
+answer-balance-v10-054,draft-check,maximum,9,missing count,0,10
+answer-balance-v10-055,control,mean,5.33,count,3,
+answer-balance-v10-056,draft-check,mean,5.33,count,3,6.33
+answer-balance-v10-057,control,mean,5.33,missing count,0,
+answer-balance-v10-058,draft-check,mean,5.33,missing count,0,6.33
+answer-balance-v10-059,control,count,3,missing count,0,
+answer-balance-v10-060,draft-check,count,3,missing count,0,4
+answer-balance-v10-061,control,sum,26,minimum,2,
+answer-balance-v10-062,draft-check,sum,26,minimum,2,27
+answer-balance-v10-063,control,sum,26,maximum,9,
+answer-balance-v10-064,draft-check,sum,26,maximum,9,27
+answer-balance-v10-065,control,sum,26,mean,5.2,
+answer-balance-v10-066,draft-check,sum,26,mean,5.2,27
+answer-balance-v10-067,control,sum,26,count,5,
+answer-balance-v10-068,draft-check,sum,26,count,5,27
+answer-balance-v10-069,control,sum,26,missing count,1,
+answer-balance-v10-070,draft-check,sum,26,missing count,1,27
+answer-balance-v10-071,control,minimum,2,maximum,9,
+answer-balance-v10-072,draft-check,minimum,2,maximum,9,3
+answer-balance-v10-073,control,minimum,2,mean,5.2,
+answer-balance-v10-074,draft-check,minimum,2,mean,5.2,3
+answer-balance-v10-075,control,minimum,2,count,5,
+answer-balance-v10-076,draft-check,minimum,2,count,5,3
+answer-balance-v10-077,control,minimum,2,missing count,1,
+answer-balance-v10-078,draft-check,minimum,2,missing count,1,3
+answer-balance-v10-079,control,maximum,9,mean,5.2,
+answer-balance-v10-080,draft-check,maximum,9,mean,5.2,10
+answer-balance-v10-081,control,maximum,9,count,5,
+answer-balance-v10-082,draft-check,maximum,9,count,5,10
+answer-balance-v10-083,control,maximum,9,missing count,1,
+answer-balance-v10-084,draft-check,maximum,9,missing count,1,10
+answer-balance-v10-085,control,mean,5.2,count,5,
+answer-balance-v10-086,draft-check,mean,5.2,count,5,6.2
+answer-balance-v10-087,control,mean,5.2,missing count,1,
+answer-balance-v10-088,draft-check,mean,5.2,missing count,1,6.2
+answer-balance-v10-089,control,count,5,missing count,1,
+answer-balance-v10-090,draft-check,count,5,missing count,1,6
+answer-balance-v10-091,control,sum,12,minimum,1,
+answer-balance-v10-092,draft-check,sum,12,minimum,1,13
+answer-balance-v10-093,control,sum,12,maximum,7,
+answer-balance-v10-094,draft-check,sum,12,maximum,7,13
+answer-balance-v10-095,control,sum,12,mean,4,
+answer-balance-v10-096,draft-check,sum,12,mean,4,13
+answer-balance-v10-097,control,sum,12,count,3,
+answer-balance-v10-098,draft-check,sum,12,count,3,13
+answer-balance-v10-099,control,sum,12,missing count,0,
+answer-balance-v10-100,draft-check,sum,12,missing count,0,13
+answer-balance-v10-101,control,minimum,1,maximum,7,
+answer-balance-v10-102,draft-check,minimum,1,maximum,7,2
+answer-balance-v10-103,control,minimum,1,mean,4,
+answer-balance-v10-104,draft-check,minimum,1,mean,4,2
+answer-balance-v10-105,control,minimum,1,count,3,
+answer-balance-v10-106,draft-check,minimum,1,count,3,2
+answer-balance-v10-107,control,minimum,1,missing count,0,
+answer-balance-v10-108,draft-check,minimum,1,missing count,0,2
+answer-balance-v10-109,control,maximum,7,mean,4,
+answer-balance-v10-110,draft-check,maximum,7,mean,4,8
+answer-balance-v10-111,control,maximum,7,count,3,
+answer-balance-v10-112,draft-check,maximum,7,count,3,8
+answer-balance-v10-113,control,maximum,7,missing count,0,
+answer-balance-v10-114,draft-check,maximum,7,missing count,0,8
+answer-balance-v10-115,control,mean,4,count,3,
+answer-balance-v10-116,draft-check,mean,4,count,3,5
+answer-balance-v10-117,control,mean,4,missing count,0,
+answer-balance-v10-118,draft-check,mean,4,missing count,0,5
+answer-balance-v10-119,control,count,3,missing count,0,
+answer-balance-v10-120,draft-check,count,3,missing count,0,4
+answer-balance-v10-121,control,sum,9,minimum,3,
+answer-balance-v10-122,draft-check,sum,9,minimum,3,10
+answer-balance-v10-123,control,sum,9,maximum,6,
+answer-balance-v10-124,draft-check,sum,9,maximum,6,10
+answer-balance-v10-125,control,sum,9,mean,4.5,
+answer-balance-v10-126,draft-check,sum,9,mean,4.5,10
+answer-balance-v10-127,control,sum,9,count,2,
+answer-balance-v10-128,draft-check,sum,9,count,2,10
+answer-balance-v10-129,control,sum,9,missing count,1,
+answer-balance-v10-130,draft-check,sum,9,missing count,1,10
+answer-balance-v10-131,control,minimum,3,maximum,6,
+answer-balance-v10-132,draft-check,minimum,3,maximum,6,4
+answer-balance-v10-133,control,minimum,3,mean,4.5,
+answer-balance-v10-134,draft-check,minimum,3,mean,4.5,4
+answer-balance-v10-135,control,minimum,3,count,2,
+answer-balance-v10-136,draft-check,minimum,3,count,2,4
+answer-balance-v10-137,control,minimum,3,missing count,1,
+answer-balance-v10-138,draft-check,minimum,3,missing count,1,4
+answer-balance-v10-139,control,maximum,6,mean,4.5,
+answer-balance-v10-140,draft-check,maximum,6,mean,4.5,7
+answer-balance-v10-141,control,maximum,6,count,2,
+answer-balance-v10-142,draft-check,maximum,6,count,2,7
+answer-balance-v10-143,control,maximum,6,missing count,1,
+answer-balance-v10-144,draft-check,maximum,6,missing count,1,7
+answer-balance-v10-145,control,mean,4.5,count,2,
+answer-balance-v10-146,draft-check,mean,4.5,count,2,5.5
+answer-balance-v10-147,control,mean,4.5,missing count,1,
+answer-balance-v10-148,draft-check,mean,4.5,missing count,1,5.5
+answer-balance-v10-149,control,count,2,missing count,1,
+answer-balance-v10-150,draft-check,count,2,missing count,1,3
+answer-balance-v10-151,control,sum,21,minimum,1,
+answer-balance-v10-152,draft-check,sum,21,minimum,1,22
+answer-balance-v10-153,control,sum,21,maximum,7,
+answer-balance-v10-154,draft-check,sum,21,maximum,7,22
+answer-balance-v10-155,control,sum,21,mean,4.2,
+answer-balance-v10-156,draft-check,sum,21,mean,4.2,22
+answer-balance-v10-157,control,sum,21,count,5,
+answer-balance-v10-158,draft-check,sum,21,count,5,22
+answer-balance-v10-159,control,sum,21,missing count,1,
+answer-balance-v10-160,draft-check,sum,21,missing count,1,22
+answer-balance-v10-161,control,minimum,1,maximum,7,
+answer-balance-v10-162,draft-check,minimum,1,maximum,7,2
+answer-balance-v10-163,control,minimum,1,mean,4.2,
+answer-balance-v10-164,draft-check,minimum,1,mean,4.2,2
+answer-balance-v10-165,control,minimum,1,count,5,
+answer-balance-v10-166,draft-check,minimum,1,count,5,2
+answer-balance-v10-167,control,minimum,1,missing count,1,
+answer-balance-v10-168,draft-check,minimum,1,missing count,1,2
+answer-balance-v10-169,control,maximum,7,mean,4.2,
+answer-balance-v10-170,draft-check,maximum,7,mean,4.2,8
+answer-balance-v10-171,control,maximum,7,count,5,
+answer-balance-v10-172,draft-check,maximum,7,count,5,8

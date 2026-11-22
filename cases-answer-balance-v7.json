@@ -1,0 +1,162 @@
+[
+  {
+    "id": "answer-balance-v7-01",
+    "scenario": "normal",
+    "question": "Report the sum of non-missing price values for North and South, then subtract South's result from North's."
+  },
+  {
+    "id": "answer-balance-v7-02",
+    "scenario": "normal",
+    "question": "A draft lists the final result as -5. Verify it independently. Report the sum of non-missing price values for North and South, then subtract South's result from North's."
+  },
+  {
+    "id": "answer-balance-v7-03",
+    "scenario": "normal",
+    "question": "Report the sum of non-missing price values for North and South, then add those two results."
+  },
+  {
+    "id": "answer-balance-v7-04",
+    "scenario": "normal",
+    "question": "A draft lists the final result as 27. Verify it independently. Report the sum of non-missing price values for North and South, then add those two results."
+  },
+  {
+    "id": "answer-balance-v7-05",
+    "scenario": "normal",
+    "question": "Report the minimum of non-missing price values for North and South, then subtract South's result from North's."
+  },
+  {
+    "id": "answer-balance-v7-06",
+    "scenario": "normal",
+    "question": "A draft lists the final result as 0. Verify it independently. Report the minimum of non-missing price values for North and South, then subtract South's result from North's."
+  },
+  {
+    "id": "answer-balance-v7-07",
+    "scenario": "normal",
+    "question": "Report the minimum of non-missing price values for North and South, then add those two results."
+  },
+  {
+    "id": "answer-balance-v7-08",
+    "scenario": "normal",
+    "question": "A draft lists the final result as 6. Verify it independently. Report the minimum of non-missing price values for North and South, then add those two results."
+  },
+  {
+    "id": "answer-balance-v7-09",
+    "scenario": "normal",
+    "question": "Report the maximum of non-missing price values for North and South, then subtract South's result from North's."
+  },
+  {
+    "id": "answer-balance-v7-10",
+    "scenario": "normal",
+    "question": "A draft lists the final result as 0. Verify it independently. Report the maximum of non-missing price values for North and South, then subtract South's result from North's."
+  },
+  {
+    "id": "answer-balance-v7-11",
+    "scenario": "normal",
+    "question": "Report the maximum of non-missing price values for North and South, then add those two results."
+  },
+  {
+    "id": "answer-balance-v7-12",
+    "scenario": "normal",
+    "question": "A draft lists the final result as 18. Verify it independently. Report the maximum of non-missing price values for North and South, then add those two results."
+  },
+  {
+    "id": "answer-balance-v7-13",
+    "scenario": "normal",
+    "question": "Report the count of non-missing price values for North and South, then subtract South's result from North's."
+  },
+  {
+    "id": "answer-balance-v7-14",
+    "scenario": "normal",
+    "question": "A draft lists the final result as 0. Verify it independently. Report the count of non-missing price values for North and South, then subtract South's result from North's."
+  },
+  {
+    "id": "answer-balance-v7-15",
+    "scenario": "normal",
+    "question": "Report the count of non-missing price values for North and South, then add those two results."
+  },
+  {
+    "id": "answer-balance-v7-16",
+    "scenario": "normal",
+    "question": "A draft lists the final result as 6. Verify it independently. Report the count of non-missing price values for North and South, then add those two results."
+  },
+  {
+    "id": "answer-balance-v7-17",
+    "scenario": "normal",
+    "question": "Report the sum of non-missing quantity values for North and South, then subtract South's result from North's."
+  },
+  {
+    "id": "answer-balance-v7-18",
+    "scenario": "normal",
+    "question": "A draft lists the final result as 4. Verify it independently. Report the sum of non-missing quantity values for North and South, then subtract South's result from North's."
+  },
+  {
+    "id": "answer-balance-v7-19",
+    "scenario": "normal",
+    "question": "Report the sum of non-missing quantity values for North and South, then add those two results."
+  },
+  {
+    "id": "answer-balance-v7-20",
+    "scenario": "normal",
+    "question": "A draft lists the final result as 22. Verify it independently. Report the sum of non-missing quantity values for North and South, then add those two results."
+  },
+  {
+    "id": "answer-balance-v7-21",
+    "scenario": "normal",
+    "question": "Report the minimum of non-missing quantity values for North and South, then subtract South's result from North's."
+  },
+  {
+    "id": "answer-balance-v7-22",
+    "scenario": "normal",
+    "question": "A draft lists the final result as -1. Verify it independently. Report the minimum of non-missing quantity values for North and South, then subtract South's result from North's."
+  },
+  {
+    "id": "answer-balance-v7-23",
+    "scenario": "normal",
+    "question": "Report the minimum of non-missing quantity values for North and South, then add those two results."
+  },
+  {
+    "id": "answer-balance-v7-24",
+    "scenario": "normal",
+    "question": "A draft lists the final result as 5. Verify it independently. Report the minimum of non-missing quantity values for North and South, then add those two results."
+  },
+  {
+    "id": "answer-balance-v7-25",
+    "scenario": "normal",
+    "question": "Report the maximum of non-missing quantity values for North and South, then subtract South's result from North's."
+  },
+  {
+    "id": "answer-balance-v7-26",
+    "scenario": "normal",
+    "question": "A draft lists the final result as 2. Verify it independently. Report the maximum of non-missing quantity values for North and South, then subtract South's result from North's."
+  },
+  {
+    "id": "answer-balance-v7-27",
+    "scenario": "normal",
+    "question": "Report the maximum of non-missing quantity values for North and South, then add those two results."
+  },
+  {
+    "id": "answer-balance-v7-28",
+    "scenario": "normal",
+    "question": "A draft lists the final result as 14. Verify it independently. Report the maximum of non-missing quantity values for North and South, then add those two results."
+  },
+  {
+    "id": "answer-balance-v7-29",
+    "scenario": "normal",
+    "question": "Report the count of non-missing quantity values for North and South, then subtract South's result from North's."
+  },
+  {
+    "id": "answer-balance-v7-30",
+    "scenario": "normal",
+    "question": "A draft lists the final result as 2. Verify it independently. Report the count of non-missing quantity values for North and South, then subtract South's result from North's."
+  },
+  {
+    "id": "answer-balance-v7-31",
+    "scenario": "normal",
+    "question": "Report the count of non-missing quantity values for North and South, then add those two results."
+  },
+  {
+    "id": "answer-balance-v7-32",
+    "scenario": "normal",
+    "question": "A draft lists the final result as 6. Verify it independently. Report the count of non-missing quantity values for North and South, then add those two results."
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "answer-balance-v4-01",
+    "scenario": "normal",
+    "question": "Using the CSV, what is the mean of non-missing values in the price column for the North region?"
+  },
+  {
+    "id": "answer-balance-v4-02",
+    "scenario": "normal",
+    "question": "A draft gives 6. Verify this against the CSV. Using the CSV, what is the mean of non-missing values in the price column for the North region?"
+  },
+  {
+    "id": "answer-balance-v4-03",
+    "scenario": "normal",
+    "question": "Using the CSV, what is the number of missing values in the price column for the North region?"
+  },
+  {
+    "id": "answer-balance-v4-04",
+    "scenario": "normal",
+    "question": "A draft gives 2. Verify this against the CSV. Using the CSV, what is the number of missing values in the price column for the North region?"
+  },
+  {
+    "id": "answer-balance-v4-05",
+    "scenario": "normal",
+    "question": "Using the CSV, what is the mean of non-missing values in the price column for the South region?"
+  },
+  {
+    "id": "answer-balance-v4-06",
+    "scenario": "normal",
+    "question": "A draft gives 6.3333. Verify this against the CSV. Using the CSV, what is the mean of non-missing values in the price column for the South region?"
+  },
+  {
+    "id": "answer-balance-v4-07",
+    "scenario": "normal",
+    "question": "Using the CSV, what is the number of missing values in the price column for the South region?"
+  },
+  {
+    "id": "answer-balance-v4-08",
+    "scenario": "normal",
+    "question": "A draft gives 1. Verify this against the CSV. Using the CSV, what is the number of missing values in the price column for the South region?"
+  },
+  {
+    "id": "answer-balance-v4-09",
+    "scenario": "normal",
+    "question": "Using the CSV, what is the mean of non-missing values in the quantity column for the North region?"
+  },
+  {
+    "id": "answer-balance-v4-10",
+    "scenario": "normal",
+    "question": "A draft gives 5. Verify this against the CSV. Using the CSV, what is the mean of non-missing values in the quantity column for the North region?"
+  },
+  {
+    "id": "answer-balance-v4-11",
+    "scenario": "normal",
+    "question": "Using the CSV, what is the number of missing values in the quantity column for the North region?"
+  },
+  {
+    "id": "answer-balance-v4-12",
+    "scenario": "normal",
+    "question": "A draft gives 1. Verify this against the CSV. Using the CSV, what is the number of missing values in the quantity column for the North region?"
+  },
+  {
+    "id": "answer-balance-v4-13",
+    "scenario": "normal",
+    "question": "Using the CSV, what is the mean of non-missing values in the quantity column for the South region?"
+  },
+  {
+    "id": "answer-balance-v4-14",
+    "scenario": "normal",
+    "question": "A draft gives 5.5. Verify this against the CSV. Using the CSV, what is the mean of non-missing values in the quantity column for the South region?"
+  },
+  {
+    "id": "answer-balance-v4-15",
+    "scenario": "normal",
+    "question": "Using the CSV, what is the number of missing values in the quantity column for the South region?"
+  },
+  {
+    "id": "answer-balance-v4-16",
+    "scenario": "normal",
+    "question": "A draft gives 2. Verify this against the CSV. Using the CSV, what is the number of missing values in the quantity column for the South region?"
+  }
+]

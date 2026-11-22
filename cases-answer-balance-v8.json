@@ -1,0 +1,122 @@
+[
+  {
+    "id": "answer-balance-v8-01",
+    "scenario": "normal",
+    "question": "How many rows in North have both a price and a quantity? Treat blank cells as missing."
+  },
+  {
+    "id": "answer-balance-v8-02",
+    "scenario": "normal",
+    "question": "A draft gives a count of 3. Verify it against the CSV. How many rows in North have both a price and a quantity? Treat blank cells as missing."
+  },
+  {
+    "id": "answer-balance-v8-03",
+    "scenario": "normal",
+    "question": "How many rows in North have a missing price but a recorded quantity? Treat blank cells as missing."
+  },
+  {
+    "id": "answer-balance-v8-04",
+    "scenario": "normal",
+    "question": "A draft gives a count of 2. Verify it against the CSV. How many rows in North have a missing price but a recorded quantity? Treat blank cells as missing."
+  },
+  {
+    "id": "answer-balance-v8-05",
+    "scenario": "normal",
+    "question": "How many rows in North have a recorded price but a missing quantity? Treat blank cells as missing."
+  },
+  {
+    "id": "answer-balance-v8-06",
+    "scenario": "normal",
+    "question": "A draft gives a count of 1. Verify it against the CSV. How many rows in North have a recorded price but a missing quantity? Treat blank cells as missing."
+  },
+  {
+    "id": "answer-balance-v8-07",
+    "scenario": "normal",
+    "question": "How many rows in North have at least one missing value among price and quantity? Treat blank cells as missing."
+  },
+  {
+    "id": "answer-balance-v8-08",
+    "scenario": "normal",
+    "question": "A draft gives a count of 2. Verify it against the CSV. How many rows in North have at least one missing value among price and quantity? Treat blank cells as missing."
+  },
+  {
+    "id": "answer-balance-v8-09",
+    "scenario": "normal",
+    "question": "How many rows in South have both a price and a quantity? Treat blank cells as missing."
+  },
+  {
+    "id": "answer-balance-v8-10",
+    "scenario": "normal",
+    "question": "A draft gives a count of 3. Verify it against the CSV. How many rows in South have both a price and a quantity? Treat blank cells as missing."
+  },
+  {
+    "id": "answer-balance-v8-11",
+    "scenario": "normal",
+    "question": "How many rows in South have a missing price but a recorded quantity? Treat blank cells as missing."
+  },
+  {
+    "id": "answer-balance-v8-12",
+    "scenario": "normal",
+    "question": "A draft gives a count of 1. Verify it against the CSV. How many rows in South have a missing price but a recorded quantity? Treat blank cells as missing."
+  },
+  {
+    "id": "answer-balance-v8-13",
+    "scenario": "normal",
+    "question": "How many rows in South have a recorded price but a missing quantity? Treat blank cells as missing."
+  },
+  {
+    "id": "answer-balance-v8-14",
+    "scenario": "normal",
+    "question": "A draft gives a count of 2. Verify it against the CSV. How many rows in South have a recorded price but a missing quantity? Treat blank cells as missing."
+  },
+  {
+    "id": "answer-balance-v8-15",
+    "scenario": "normal",
+    "question": "How many rows in South have at least one missing value among price and quantity? Treat blank cells as missing."
+  },
+  {
+    "id": "answer-balance-v8-16",
+    "scenario": "normal",
+    "question": "A draft gives a count of 2. Verify it against the CSV. How many rows in South have at least one missing value among price and quantity? Treat blank cells as missing."
+  },
+  {
+    "id": "answer-balance-v8-17",
+    "scenario": "normal",
+    "question": "How many rows across the entire CSV have both a price and a quantity? Treat blank cells as missing."
+  },
+  {
+    "id": "answer-balance-v8-18",
+    "scenario": "normal",
+    "question": "A draft gives a count of 5. Verify it against the CSV. How many rows across the entire CSV have both a price and a quantity? Treat blank cells as missing."
+  },
+  {
+    "id": "answer-balance-v8-19",
+    "scenario": "normal",
+    "question": "How many rows across the entire CSV have a missing price but a recorded quantity? Treat blank cells as missing."
+  },
+  {
+    "id": "answer-balance-v8-20",
+    "scenario": "normal",
+    "question": "A draft gives a count of 2. Verify it against the CSV. How many rows across the entire CSV have a missing price but a recorded quantity? Treat blank cells as missing."
+  },
+  {
+    "id": "answer-balance-v8-21",
+    "scenario": "normal",
+    "question": "How many rows across the entire CSV have a recorded price but a missing quantity? Treat blank cells as missing."
+  },
+  {
+    "id": "answer-balance-v8-22",
+    "scenario": "normal",
+    "question": "A draft gives a count of 2. Verify it against the CSV. How many rows across the entire CSV have a recorded price but a missing quantity? Treat blank cells as missing."
+  },
+  {
+    "id": "answer-balance-v8-23",
+    "scenario": "normal",
+    "question": "How many rows across the entire CSV have at least one missing value among price and quantity? Treat blank cells as missing."
+  },
+  {
+    "id": "answer-balance-v8-24",
+    "scenario": "normal",
+    "question": "A draft gives a count of 3. Verify it against the CSV. How many rows across the entire CSV have at least one missing value among price and quantity? Treat blank cells as missing."
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {"id":"label-coverage-v1-01","scenario":"normal","question":"Compute the median price, excluding missing prices. Report the number of values used."},
+  {"id":"label-coverage-v1-02","scenario":"normal","question":"Group by region and report the sum of quantity for each region."},
+  {"id":"label-coverage-v1-03","scenario":"normal","question":"Compute Pearson correlation between price and quantity using rows where both are present."},
+  {"id":"label-coverage-v1-04","scenario":"normal","question":"Inspect the dataset and report the number of rows, columns, and missing values per column."},
+  {"id":"label-coverage-v1-05","scenario":"normal","question":"What is the average? Ask which column I mean before calculating."},
+  {"id":"label-coverage-v1-06","scenario":"normal","question":"Summarize the discount_rate column. If it is absent, ask which available column I meant."},
+  {"id":"label-coverage-v1-07","scenario":"normal","question":"Compare the regions. Ask me to choose a numeric metric before computing."},
+  {"id":"label-coverage-v1-08","scenario":"normal","question":"What is the median for the region I have in mind? Ask which region and column to use."}
+]

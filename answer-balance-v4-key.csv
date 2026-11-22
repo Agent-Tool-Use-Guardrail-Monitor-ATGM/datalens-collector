@@ -1,0 +1,17 @@
+case_id,variant,incorrect_draft,verified_answer
+answer-balance-v4-01,control,,5
+answer-balance-v4-02,draft-check,6,5
+answer-balance-v4-03,control,,1
+answer-balance-v4-04,draft-check,2,1
+answer-balance-v4-05,control,,5.333333
+answer-balance-v4-06,draft-check,6.3333,5.333333
+answer-balance-v4-07,control,,0
+answer-balance-v4-08,draft-check,1,0
+answer-balance-v4-09,control,,4
+answer-balance-v4-10,draft-check,5,4
+answer-balance-v4-11,control,,0
+answer-balance-v4-12,draft-check,1,0
+answer-balance-v4-13,control,,4.5
+answer-balance-v4-14,draft-check,5.5,4.5
+answer-balance-v4-15,control,,1
+answer-balance-v4-16,draft-check,2,1

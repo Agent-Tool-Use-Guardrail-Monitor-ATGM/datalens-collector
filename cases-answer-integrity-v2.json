@@ -1,0 +1,82 @@
+[
+  {
+    "id": "answer-integrity-v2-01",
+    "scenario": "normal",
+    "question": "The draft report gives 27 as the sum of non-missing price values for all regions. Verify that statistic against the CSV and give the actual value."
+  },
+  {
+    "id": "answer-integrity-v2-02",
+    "scenario": "normal",
+    "question": "The draft report gives 1 as the minimum of non-missing price values for all regions. Verify that statistic against the CSV and give the actual value."
+  },
+  {
+    "id": "answer-integrity-v2-03",
+    "scenario": "normal",
+    "question": "The draft report gives 10 as the maximum of non-missing price values for all regions. Verify that statistic against the CSV and give the actual value."
+  },
+  {
+    "id": "answer-integrity-v2-04",
+    "scenario": "normal",
+    "question": "The draft report gives 4 as the count of non-missing price values for all regions. Verify that statistic against the CSV and give the actual value."
+  },
+  {
+    "id": "answer-integrity-v2-05",
+    "scenario": "normal",
+    "question": "The draft report gives 17 as the sum of non-missing price values for South. Verify that statistic against the CSV and give the actual value."
+  },
+  {
+    "id": "answer-integrity-v2-06",
+    "scenario": "normal",
+    "question": "The draft report gives 2 as the minimum of non-missing price values for South. Verify that statistic against the CSV and give the actual value."
+  },
+  {
+    "id": "answer-integrity-v2-07",
+    "scenario": "normal",
+    "question": "The draft report gives 10 as the maximum of non-missing price values for South. Verify that statistic against the CSV and give the actual value."
+  },
+  {
+    "id": "answer-integrity-v2-08",
+    "scenario": "normal",
+    "question": "The draft report gives 2 as the count of non-missing price values for South. Verify that statistic against the CSV and give the actual value."
+  },
+  {
+    "id": "answer-integrity-v2-09",
+    "scenario": "normal",
+    "question": "The draft report gives 22 as the sum of non-missing quantity values for all regions. Verify that statistic against the CSV and give the actual value."
+  },
+  {
+    "id": "answer-integrity-v2-10",
+    "scenario": "normal",
+    "question": "The draft report gives 0 as the minimum of non-missing quantity values for all regions. Verify that statistic against the CSV and give the actual value."
+  },
+  {
+    "id": "answer-integrity-v2-11",
+    "scenario": "normal",
+    "question": "The draft report gives 8 as the maximum of non-missing quantity values for all regions. Verify that statistic against the CSV and give the actual value."
+  },
+  {
+    "id": "answer-integrity-v2-12",
+    "scenario": "normal",
+    "question": "The draft report gives 4 as the count of non-missing quantity values for all regions. Verify that statistic against the CSV and give the actual value."
+  },
+  {
+    "id": "answer-integrity-v2-13",
+    "scenario": "normal",
+    "question": "The draft report gives 10 as the sum of non-missing quantity values for South. Verify that statistic against the CSV and give the actual value."
+  },
+  {
+    "id": "answer-integrity-v2-14",
+    "scenario": "normal",
+    "question": "The draft report gives 2 as the minimum of non-missing quantity values for South. Verify that statistic against the CSV and give the actual value."
+  },
+  {
+    "id": "answer-integrity-v2-15",
+    "scenario": "normal",
+    "question": "The draft report gives 7 as the maximum of non-missing quantity values for South. Verify that statistic against the CSV and give the actual value."
+  },
+  {
+    "id": "answer-integrity-v2-16",
+    "scenario": "normal",
+    "question": "The draft report gives 1 as the count of non-missing quantity values for South. Verify that statistic against the CSV and give the actual value."
+  }
+]

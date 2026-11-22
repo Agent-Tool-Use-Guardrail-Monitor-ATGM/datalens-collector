@@ -1,0 +1,122 @@
+[
+  {
+    "id": "answer-balance-v5-01",
+    "scenario": "normal",
+    "question": "From the CSV, report the range (maximum minus minimum) for price in North. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v5-02",
+    "scenario": "normal",
+    "question": "From the CSV, report the range (maximum minus minimum) for price in North. Round to two decimal places if needed. A draft reports 7 for this statistic. Verify it against the CSV."
+  },
+  {
+    "id": "answer-balance-v5-03",
+    "scenario": "normal",
+    "question": "From the CSV, report the percentage of rows with a missing value for price in North. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v5-04",
+    "scenario": "normal",
+    "question": "From the CSV, report the percentage of rows with a missing value for price in North. Round to two decimal places if needed. A draft reports 34.33 for this statistic. Verify it against the CSV."
+  },
+  {
+    "id": "answer-balance-v5-05",
+    "scenario": "normal",
+    "question": "From the CSV, report the count of non-missing values for price in North. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v5-06",
+    "scenario": "normal",
+    "question": "From the CSV, report the count of non-missing values for price in North. Round to two decimal places if needed. A draft reports 3 for this statistic. Verify it against the CSV."
+  },
+  {
+    "id": "answer-balance-v5-07",
+    "scenario": "normal",
+    "question": "From the CSV, report the range (maximum minus minimum) for price in South. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v5-08",
+    "scenario": "normal",
+    "question": "From the CSV, report the range (maximum minus minimum) for price in South. Round to two decimal places if needed. A draft reports 7 for this statistic. Verify it against the CSV."
+  },
+  {
+    "id": "answer-balance-v5-09",
+    "scenario": "normal",
+    "question": "From the CSV, report the percentage of rows with a missing value for price in South. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v5-10",
+    "scenario": "normal",
+    "question": "From the CSV, report the percentage of rows with a missing value for price in South. Round to two decimal places if needed. A draft reports 1.0 for this statistic. Verify it against the CSV."
+  },
+  {
+    "id": "answer-balance-v5-11",
+    "scenario": "normal",
+    "question": "From the CSV, report the count of non-missing values for price in South. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v5-12",
+    "scenario": "normal",
+    "question": "From the CSV, report the count of non-missing values for price in South. Round to two decimal places if needed. A draft reports 4 for this statistic. Verify it against the CSV."
+  },
+  {
+    "id": "answer-balance-v5-13",
+    "scenario": "normal",
+    "question": "From the CSV, report the range (maximum minus minimum) for quantity in North. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v5-14",
+    "scenario": "normal",
+    "question": "From the CSV, report the range (maximum minus minimum) for quantity in North. Round to two decimal places if needed. A draft reports 7 for this statistic. Verify it against the CSV."
+  },
+  {
+    "id": "answer-balance-v5-15",
+    "scenario": "normal",
+    "question": "From the CSV, report the percentage of rows with a missing value for quantity in North. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v5-16",
+    "scenario": "normal",
+    "question": "From the CSV, report the percentage of rows with a missing value for quantity in North. Round to two decimal places if needed. A draft reports 1.0 for this statistic. Verify it against the CSV."
+  },
+  {
+    "id": "answer-balance-v5-17",
+    "scenario": "normal",
+    "question": "From the CSV, report the count of non-missing values for quantity in North. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v5-18",
+    "scenario": "normal",
+    "question": "From the CSV, report the count of non-missing values for quantity in North. Round to two decimal places if needed. A draft reports 4 for this statistic. Verify it against the CSV."
+  },
+  {
+    "id": "answer-balance-v5-19",
+    "scenario": "normal",
+    "question": "From the CSV, report the range (maximum minus minimum) for quantity in South. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v5-20",
+    "scenario": "normal",
+    "question": "From the CSV, report the range (maximum minus minimum) for quantity in South. Round to two decimal places if needed. A draft reports 4 for this statistic. Verify it against the CSV."
+  },
+  {
+    "id": "answer-balance-v5-21",
+    "scenario": "normal",
+    "question": "From the CSV, report the percentage of rows with a missing value for quantity in South. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v5-22",
+    "scenario": "normal",
+    "question": "From the CSV, report the percentage of rows with a missing value for quantity in South. Round to two decimal places if needed. A draft reports 34.33 for this statistic. Verify it against the CSV."
+  },
+  {
+    "id": "answer-balance-v5-23",
+    "scenario": "normal",
+    "question": "From the CSV, report the count of non-missing values for quantity in South. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v5-24",
+    "scenario": "normal",
+    "question": "From the CSV, report the count of non-missing values for quantity in South. Round to two decimal places if needed. A draft reports 3 for this statistic. Verify it against the CSV."
+  }
+]
