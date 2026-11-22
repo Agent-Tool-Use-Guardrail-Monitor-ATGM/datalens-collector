@@ -1,0 +1,13 @@
+case_id,variant,region,statistic,incorrect_draft,verified_answer
+regional-integrity-v3-01,control,North,sum of price values,,10
+regional-integrity-v3-02,draft-check,North,sum of price values,12,10
+regional-integrity-v3-03,control,North,maximum price,,8
+regional-integrity-v3-04,draft-check,North,maximum price,10,8
+regional-integrity-v3-05,control,South,minimum price,,3
+regional-integrity-v3-06,draft-check,South,minimum price,5,3
+regional-integrity-v3-07,control,North,sum of quantity values,,12
+regional-integrity-v3-08,draft-check,North,sum of quantity values,14,12
+regional-integrity-v3-09,control,North,maximum quantity,,7
+regional-integrity-v3-10,draft-check,North,maximum quantity,9,7
+regional-integrity-v3-11,control,South,minimum quantity,,3
+regional-integrity-v3-12,draft-check,South,minimum quantity,5,3

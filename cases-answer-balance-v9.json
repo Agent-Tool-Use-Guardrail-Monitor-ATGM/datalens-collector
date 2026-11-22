@@ -1,0 +1,122 @@
+[
+  {
+    "id": "answer-balance-v9-01",
+    "scenario": "normal",
+    "question": "Calculate the mean price in North, excluding blank cells. Round to two decimal places."
+  },
+  {
+    "id": "answer-balance-v9-02",
+    "scenario": "normal",
+    "question": "A draft reports 5.50. Verify it against the CSV. Calculate the mean price in North, excluding blank cells. Round to two decimal places."
+  },
+  {
+    "id": "answer-balance-v9-03",
+    "scenario": "normal",
+    "question": "Calculate the mean price in North, treating blank cells as zero. Round to two decimal places."
+  },
+  {
+    "id": "answer-balance-v9-04",
+    "scenario": "normal",
+    "question": "A draft reports 3.83. Verify it against the CSV. Calculate the mean price in North, treating blank cells as zero. Round to two decimal places."
+  },
+  {
+    "id": "answer-balance-v9-05",
+    "scenario": "normal",
+    "question": "Calculate the mean price in South, excluding blank cells. Round to two decimal places."
+  },
+  {
+    "id": "answer-balance-v9-06",
+    "scenario": "normal",
+    "question": "A draft reports 5.83. Verify it against the CSV. Calculate the mean price in South, excluding blank cells. Round to two decimal places."
+  },
+  {
+    "id": "answer-balance-v9-07",
+    "scenario": "normal",
+    "question": "Calculate the mean price in South, treating blank cells as zero. Round to two decimal places."
+  },
+  {
+    "id": "answer-balance-v9-08",
+    "scenario": "normal",
+    "question": "A draft reports 5.83. Verify it against the CSV. Calculate the mean price in South, treating blank cells as zero. Round to two decimal places."
+  },
+  {
+    "id": "answer-balance-v9-09",
+    "scenario": "normal",
+    "question": "Calculate the mean price across all regions, excluding blank cells. Round to two decimal places."
+  },
+  {
+    "id": "answer-balance-v9-10",
+    "scenario": "normal",
+    "question": "A draft reports 5.70. Verify it against the CSV. Calculate the mean price across all regions, excluding blank cells. Round to two decimal places."
+  },
+  {
+    "id": "answer-balance-v9-11",
+    "scenario": "normal",
+    "question": "Calculate the mean price across all regions, treating blank cells as zero. Round to two decimal places."
+  },
+  {
+    "id": "answer-balance-v9-12",
+    "scenario": "normal",
+    "question": "A draft reports 4.83. Verify it against the CSV. Calculate the mean price across all regions, treating blank cells as zero. Round to two decimal places."
+  },
+  {
+    "id": "answer-balance-v9-13",
+    "scenario": "normal",
+    "question": "Calculate the mean quantity in North, excluding blank cells. Round to two decimal places."
+  },
+  {
+    "id": "answer-balance-v9-14",
+    "scenario": "normal",
+    "question": "A draft reports 4.50. Verify it against the CSV. Calculate the mean quantity in North, excluding blank cells. Round to two decimal places."
+  },
+  {
+    "id": "answer-balance-v9-15",
+    "scenario": "normal",
+    "question": "Calculate the mean quantity in North, treating blank cells as zero. Round to two decimal places."
+  },
+  {
+    "id": "answer-balance-v9-16",
+    "scenario": "normal",
+    "question": "A draft reports 4.50. Verify it against the CSV. Calculate the mean quantity in North, treating blank cells as zero. Round to two decimal places."
+  },
+  {
+    "id": "answer-balance-v9-17",
+    "scenario": "normal",
+    "question": "Calculate the mean quantity in South, excluding blank cells. Round to two decimal places."
+  },
+  {
+    "id": "answer-balance-v9-18",
+    "scenario": "normal",
+    "question": "A draft reports 5.00. Verify it against the CSV. Calculate the mean quantity in South, excluding blank cells. Round to two decimal places."
+  },
+  {
+    "id": "answer-balance-v9-19",
+    "scenario": "normal",
+    "question": "Calculate the mean quantity in South, treating blank cells as zero. Round to two decimal places."
+  },
+  {
+    "id": "answer-balance-v9-20",
+    "scenario": "normal",
+    "question": "A draft reports 3.50. Verify it against the CSV. Calculate the mean quantity in South, treating blank cells as zero. Round to two decimal places."
+  },
+  {
+    "id": "answer-balance-v9-21",
+    "scenario": "normal",
+    "question": "Calculate the mean quantity across all regions, excluding blank cells. Round to two decimal places."
+  },
+  {
+    "id": "answer-balance-v9-22",
+    "scenario": "normal",
+    "question": "A draft reports 4.70. Verify it against the CSV. Calculate the mean quantity across all regions, excluding blank cells. Round to two decimal places."
+  },
+  {
+    "id": "answer-balance-v9-23",
+    "scenario": "normal",
+    "question": "Calculate the mean quantity across all regions, treating blank cells as zero. Round to two decimal places."
+  },
+  {
+    "id": "answer-balance-v9-24",
+    "scenario": "normal",
+    "question": "A draft reports 4.00. Verify it against the CSV. Calculate the mean quantity across all regions, treating blank cells as zero. Round to two decimal places."
+  }
+]

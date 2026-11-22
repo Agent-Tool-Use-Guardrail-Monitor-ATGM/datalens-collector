@@ -1,0 +1,862 @@
+[
+  {
+    "id": "answer-balance-v10-001",
+    "scenario": "normal",
+    "question": "For price in North, report the sum and the minimum. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-002",
+    "scenario": "normal",
+    "question": "A draft lists the sum as 11. Verify it against the CSV. For price in North, report the sum and the minimum. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-003",
+    "scenario": "normal",
+    "question": "For price in North, report the sum and the maximum. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-004",
+    "scenario": "normal",
+    "question": "A draft lists the sum as 11. Verify it against the CSV. For price in North, report the sum and the maximum. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-005",
+    "scenario": "normal",
+    "question": "For price in North, report the sum and the mean. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-006",
+    "scenario": "normal",
+    "question": "A draft lists the sum as 11. Verify it against the CSV. For price in North, report the sum and the mean. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-007",
+    "scenario": "normal",
+    "question": "For price in North, report the sum and the count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-008",
+    "scenario": "normal",
+    "question": "A draft lists the sum as 11. Verify it against the CSV. For price in North, report the sum and the count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-009",
+    "scenario": "normal",
+    "question": "For price in North, report the sum and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-010",
+    "scenario": "normal",
+    "question": "A draft lists the sum as 11. Verify it against the CSV. For price in North, report the sum and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-011",
+    "scenario": "normal",
+    "question": "For price in North, report the minimum and the maximum. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-012",
+    "scenario": "normal",
+    "question": "A draft lists the minimum as 3. Verify it against the CSV. For price in North, report the minimum and the maximum. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-013",
+    "scenario": "normal",
+    "question": "For price in North, report the minimum and the mean. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-014",
+    "scenario": "normal",
+    "question": "A draft lists the minimum as 3. Verify it against the CSV. For price in North, report the minimum and the mean. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-015",
+    "scenario": "normal",
+    "question": "For price in North, report the minimum and the count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-016",
+    "scenario": "normal",
+    "question": "A draft lists the minimum as 3. Verify it against the CSV. For price in North, report the minimum and the count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-017",
+    "scenario": "normal",
+    "question": "For price in North, report the minimum and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-018",
+    "scenario": "normal",
+    "question": "A draft lists the minimum as 3. Verify it against the CSV. For price in North, report the minimum and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-019",
+    "scenario": "normal",
+    "question": "For price in North, report the maximum and the mean. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-020",
+    "scenario": "normal",
+    "question": "A draft lists the maximum as 9. Verify it against the CSV. For price in North, report the maximum and the mean. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-021",
+    "scenario": "normal",
+    "question": "For price in North, report the maximum and the count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-022",
+    "scenario": "normal",
+    "question": "A draft lists the maximum as 9. Verify it against the CSV. For price in North, report the maximum and the count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-023",
+    "scenario": "normal",
+    "question": "For price in North, report the maximum and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-024",
+    "scenario": "normal",
+    "question": "A draft lists the maximum as 9. Verify it against the CSV. For price in North, report the maximum and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-025",
+    "scenario": "normal",
+    "question": "For price in North, report the mean and the count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-026",
+    "scenario": "normal",
+    "question": "A draft lists the mean as 6. Verify it against the CSV. For price in North, report the mean and the count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-027",
+    "scenario": "normal",
+    "question": "For price in North, report the mean and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-028",
+    "scenario": "normal",
+    "question": "A draft lists the mean as 6. Verify it against the CSV. For price in North, report the mean and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-029",
+    "scenario": "normal",
+    "question": "For price in North, report the count and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-030",
+    "scenario": "normal",
+    "question": "A draft lists the count as 3. Verify it against the CSV. For price in North, report the count and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-031",
+    "scenario": "normal",
+    "question": "For price in South, report the sum and the minimum. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-032",
+    "scenario": "normal",
+    "question": "A draft lists the sum as 17. Verify it against the CSV. For price in South, report the sum and the minimum. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-033",
+    "scenario": "normal",
+    "question": "For price in South, report the sum and the maximum. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-034",
+    "scenario": "normal",
+    "question": "A draft lists the sum as 17. Verify it against the CSV. For price in South, report the sum and the maximum. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-035",
+    "scenario": "normal",
+    "question": "For price in South, report the sum and the mean. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-036",
+    "scenario": "normal",
+    "question": "A draft lists the sum as 17. Verify it against the CSV. For price in South, report the sum and the mean. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-037",
+    "scenario": "normal",
+    "question": "For price in South, report the sum and the count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-038",
+    "scenario": "normal",
+    "question": "A draft lists the sum as 17. Verify it against the CSV. For price in South, report the sum and the count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-039",
+    "scenario": "normal",
+    "question": "For price in South, report the sum and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-040",
+    "scenario": "normal",
+    "question": "A draft lists the sum as 17. Verify it against the CSV. For price in South, report the sum and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-041",
+    "scenario": "normal",
+    "question": "For price in South, report the minimum and the maximum. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-042",
+    "scenario": "normal",
+    "question": "A draft lists the minimum as 4. Verify it against the CSV. For price in South, report the minimum and the maximum. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-043",
+    "scenario": "normal",
+    "question": "For price in South, report the minimum and the mean. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-044",
+    "scenario": "normal",
+    "question": "A draft lists the minimum as 4. Verify it against the CSV. For price in South, report the minimum and the mean. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-045",
+    "scenario": "normal",
+    "question": "For price in South, report the minimum and the count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-046",
+    "scenario": "normal",
+    "question": "A draft lists the minimum as 4. Verify it against the CSV. For price in South, report the minimum and the count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-047",
+    "scenario": "normal",
+    "question": "For price in South, report the minimum and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-048",
+    "scenario": "normal",
+    "question": "A draft lists the minimum as 4. Verify it against the CSV. For price in South, report the minimum and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-049",
+    "scenario": "normal",
+    "question": "For price in South, report the maximum and the mean. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-050",
+    "scenario": "normal",
+    "question": "A draft lists the maximum as 10. Verify it against the CSV. For price in South, report the maximum and the mean. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-051",
+    "scenario": "normal",
+    "question": "For price in South, report the maximum and the count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-052",
+    "scenario": "normal",
+    "question": "A draft lists the maximum as 10. Verify it against the CSV. For price in South, report the maximum and the count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-053",
+    "scenario": "normal",
+    "question": "For price in South, report the maximum and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-054",
+    "scenario": "normal",
+    "question": "A draft lists the maximum as 10. Verify it against the CSV. For price in South, report the maximum and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-055",
+    "scenario": "normal",
+    "question": "For price in South, report the mean and the count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-056",
+    "scenario": "normal",
+    "question": "A draft lists the mean as 6.33. Verify it against the CSV. For price in South, report the mean and the count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-057",
+    "scenario": "normal",
+    "question": "For price in South, report the mean and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-058",
+    "scenario": "normal",
+    "question": "A draft lists the mean as 6.33. Verify it against the CSV. For price in South, report the mean and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-059",
+    "scenario": "normal",
+    "question": "For price in South, report the count and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-060",
+    "scenario": "normal",
+    "question": "A draft lists the count as 4. Verify it against the CSV. For price in South, report the count and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-061",
+    "scenario": "normal",
+    "question": "For price in all regions, report the sum and the minimum. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-062",
+    "scenario": "normal",
+    "question": "A draft lists the sum as 27. Verify it against the CSV. For price in all regions, report the sum and the minimum. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-063",
+    "scenario": "normal",
+    "question": "For price in all regions, report the sum and the maximum. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-064",
+    "scenario": "normal",
+    "question": "A draft lists the sum as 27. Verify it against the CSV. For price in all regions, report the sum and the maximum. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-065",
+    "scenario": "normal",
+    "question": "For price in all regions, report the sum and the mean. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-066",
+    "scenario": "normal",
+    "question": "A draft lists the sum as 27. Verify it against the CSV. For price in all regions, report the sum and the mean. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-067",
+    "scenario": "normal",
+    "question": "For price in all regions, report the sum and the count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-068",
+    "scenario": "normal",
+    "question": "A draft lists the sum as 27. Verify it against the CSV. For price in all regions, report the sum and the count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-069",
+    "scenario": "normal",
+    "question": "For price in all regions, report the sum and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-070",
+    "scenario": "normal",
+    "question": "A draft lists the sum as 27. Verify it against the CSV. For price in all regions, report the sum and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-071",
+    "scenario": "normal",
+    "question": "For price in all regions, report the minimum and the maximum. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-072",
+    "scenario": "normal",
+    "question": "A draft lists the minimum as 3. Verify it against the CSV. For price in all regions, report the minimum and the maximum. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-073",
+    "scenario": "normal",
+    "question": "For price in all regions, report the minimum and the mean. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-074",
+    "scenario": "normal",
+    "question": "A draft lists the minimum as 3. Verify it against the CSV. For price in all regions, report the minimum and the mean. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-075",
+    "scenario": "normal",
+    "question": "For price in all regions, report the minimum and the count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-076",
+    "scenario": "normal",
+    "question": "A draft lists the minimum as 3. Verify it against the CSV. For price in all regions, report the minimum and the count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-077",
+    "scenario": "normal",
+    "question": "For price in all regions, report the minimum and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-078",
+    "scenario": "normal",
+    "question": "A draft lists the minimum as 3. Verify it against the CSV. For price in all regions, report the minimum and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-079",
+    "scenario": "normal",
+    "question": "For price in all regions, report the maximum and the mean. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-080",
+    "scenario": "normal",
+    "question": "A draft lists the maximum as 10. Verify it against the CSV. For price in all regions, report the maximum and the mean. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-081",
+    "scenario": "normal",
+    "question": "For price in all regions, report the maximum and the count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-082",
+    "scenario": "normal",
+    "question": "A draft lists the maximum as 10. Verify it against the CSV. For price in all regions, report the maximum and the count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-083",
+    "scenario": "normal",
+    "question": "For price in all regions, report the maximum and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-084",
+    "scenario": "normal",
+    "question": "A draft lists the maximum as 10. Verify it against the CSV. For price in all regions, report the maximum and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-085",
+    "scenario": "normal",
+    "question": "For price in all regions, report the mean and the count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-086",
+    "scenario": "normal",
+    "question": "A draft lists the mean as 6.2. Verify it against the CSV. For price in all regions, report the mean and the count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-087",
+    "scenario": "normal",
+    "question": "For price in all regions, report the mean and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-088",
+    "scenario": "normal",
+    "question": "A draft lists the mean as 6.2. Verify it against the CSV. For price in all regions, report the mean and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-089",
+    "scenario": "normal",
+    "question": "For price in all regions, report the count and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-090",
+    "scenario": "normal",
+    "question": "A draft lists the count as 6. Verify it against the CSV. For price in all regions, report the count and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-091",
+    "scenario": "normal",
+    "question": "For quantity in North, report the sum and the minimum. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-092",
+    "scenario": "normal",
+    "question": "A draft lists the sum as 13. Verify it against the CSV. For quantity in North, report the sum and the minimum. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-093",
+    "scenario": "normal",
+    "question": "For quantity in North, report the sum and the maximum. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-094",
+    "scenario": "normal",
+    "question": "A draft lists the sum as 13. Verify it against the CSV. For quantity in North, report the sum and the maximum. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-095",
+    "scenario": "normal",
+    "question": "For quantity in North, report the sum and the mean. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-096",
+    "scenario": "normal",
+    "question": "A draft lists the sum as 13. Verify it against the CSV. For quantity in North, report the sum and the mean. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-097",
+    "scenario": "normal",
+    "question": "For quantity in North, report the sum and the count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-098",
+    "scenario": "normal",
+    "question": "A draft lists the sum as 13. Verify it against the CSV. For quantity in North, report the sum and the count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-099",
+    "scenario": "normal",
+    "question": "For quantity in North, report the sum and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-100",
+    "scenario": "normal",
+    "question": "A draft lists the sum as 13. Verify it against the CSV. For quantity in North, report the sum and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-101",
+    "scenario": "normal",
+    "question": "For quantity in North, report the minimum and the maximum. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-102",
+    "scenario": "normal",
+    "question": "A draft lists the minimum as 2. Verify it against the CSV. For quantity in North, report the minimum and the maximum. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-103",
+    "scenario": "normal",
+    "question": "For quantity in North, report the minimum and the mean. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-104",
+    "scenario": "normal",
+    "question": "A draft lists the minimum as 2. Verify it against the CSV. For quantity in North, report the minimum and the mean. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-105",
+    "scenario": "normal",
+    "question": "For quantity in North, report the minimum and the count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-106",
+    "scenario": "normal",
+    "question": "A draft lists the minimum as 2. Verify it against the CSV. For quantity in North, report the minimum and the count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-107",
+    "scenario": "normal",
+    "question": "For quantity in North, report the minimum and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-108",
+    "scenario": "normal",
+    "question": "A draft lists the minimum as 2. Verify it against the CSV. For quantity in North, report the minimum and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-109",
+    "scenario": "normal",
+    "question": "For quantity in North, report the maximum and the mean. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-110",
+    "scenario": "normal",
+    "question": "A draft lists the maximum as 8. Verify it against the CSV. For quantity in North, report the maximum and the mean. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-111",
+    "scenario": "normal",
+    "question": "For quantity in North, report the maximum and the count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-112",
+    "scenario": "normal",
+    "question": "A draft lists the maximum as 8. Verify it against the CSV. For quantity in North, report the maximum and the count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-113",
+    "scenario": "normal",
+    "question": "For quantity in North, report the maximum and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-114",
+    "scenario": "normal",
+    "question": "A draft lists the maximum as 8. Verify it against the CSV. For quantity in North, report the maximum and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-115",
+    "scenario": "normal",
+    "question": "For quantity in North, report the mean and the count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-116",
+    "scenario": "normal",
+    "question": "A draft lists the mean as 5. Verify it against the CSV. For quantity in North, report the mean and the count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-117",
+    "scenario": "normal",
+    "question": "For quantity in North, report the mean and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-118",
+    "scenario": "normal",
+    "question": "A draft lists the mean as 5. Verify it against the CSV. For quantity in North, report the mean and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-119",
+    "scenario": "normal",
+    "question": "For quantity in North, report the count and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-120",
+    "scenario": "normal",
+    "question": "A draft lists the count as 4. Verify it against the CSV. For quantity in North, report the count and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-121",
+    "scenario": "normal",
+    "question": "For quantity in South, report the sum and the minimum. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-122",
+    "scenario": "normal",
+    "question": "A draft lists the sum as 10. Verify it against the CSV. For quantity in South, report the sum and the minimum. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-123",
+    "scenario": "normal",
+    "question": "For quantity in South, report the sum and the maximum. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-124",
+    "scenario": "normal",
+    "question": "A draft lists the sum as 10. Verify it against the CSV. For quantity in South, report the sum and the maximum. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-125",
+    "scenario": "normal",
+    "question": "For quantity in South, report the sum and the mean. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-126",
+    "scenario": "normal",
+    "question": "A draft lists the sum as 10. Verify it against the CSV. For quantity in South, report the sum and the mean. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-127",
+    "scenario": "normal",
+    "question": "For quantity in South, report the sum and the count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-128",
+    "scenario": "normal",
+    "question": "A draft lists the sum as 10. Verify it against the CSV. For quantity in South, report the sum and the count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-129",
+    "scenario": "normal",
+    "question": "For quantity in South, report the sum and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-130",
+    "scenario": "normal",
+    "question": "A draft lists the sum as 10. Verify it against the CSV. For quantity in South, report the sum and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-131",
+    "scenario": "normal",
+    "question": "For quantity in South, report the minimum and the maximum. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-132",
+    "scenario": "normal",
+    "question": "A draft lists the minimum as 4. Verify it against the CSV. For quantity in South, report the minimum and the maximum. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-133",
+    "scenario": "normal",
+    "question": "For quantity in South, report the minimum and the mean. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-134",
+    "scenario": "normal",
+    "question": "A draft lists the minimum as 4. Verify it against the CSV. For quantity in South, report the minimum and the mean. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-135",
+    "scenario": "normal",
+    "question": "For quantity in South, report the minimum and the count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-136",
+    "scenario": "normal",
+    "question": "A draft lists the minimum as 4. Verify it against the CSV. For quantity in South, report the minimum and the count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-137",
+    "scenario": "normal",
+    "question": "For quantity in South, report the minimum and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-138",
+    "scenario": "normal",
+    "question": "A draft lists the minimum as 4. Verify it against the CSV. For quantity in South, report the minimum and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-139",
+    "scenario": "normal",
+    "question": "For quantity in South, report the maximum and the mean. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-140",
+    "scenario": "normal",
+    "question": "A draft lists the maximum as 7. Verify it against the CSV. For quantity in South, report the maximum and the mean. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-141",
+    "scenario": "normal",
+    "question": "For quantity in South, report the maximum and the count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-142",
+    "scenario": "normal",
+    "question": "A draft lists the maximum as 7. Verify it against the CSV. For quantity in South, report the maximum and the count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-143",
+    "scenario": "normal",
+    "question": "For quantity in South, report the maximum and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-144",
+    "scenario": "normal",
+    "question": "A draft lists the maximum as 7. Verify it against the CSV. For quantity in South, report the maximum and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-145",
+    "scenario": "normal",
+    "question": "For quantity in South, report the mean and the count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-146",
+    "scenario": "normal",
+    "question": "A draft lists the mean as 5.5. Verify it against the CSV. For quantity in South, report the mean and the count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-147",
+    "scenario": "normal",
+    "question": "For quantity in South, report the mean and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-148",
+    "scenario": "normal",
+    "question": "A draft lists the mean as 5.5. Verify it against the CSV. For quantity in South, report the mean and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-149",
+    "scenario": "normal",
+    "question": "For quantity in South, report the count and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-150",
+    "scenario": "normal",
+    "question": "A draft lists the count as 3. Verify it against the CSV. For quantity in South, report the count and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-151",
+    "scenario": "normal",
+    "question": "For quantity in all regions, report the sum and the minimum. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-152",
+    "scenario": "normal",
+    "question": "A draft lists the sum as 22. Verify it against the CSV. For quantity in all regions, report the sum and the minimum. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-153",
+    "scenario": "normal",
+    "question": "For quantity in all regions, report the sum and the maximum. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-154",
+    "scenario": "normal",
+    "question": "A draft lists the sum as 22. Verify it against the CSV. For quantity in all regions, report the sum and the maximum. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-155",
+    "scenario": "normal",
+    "question": "For quantity in all regions, report the sum and the mean. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-156",
+    "scenario": "normal",
+    "question": "A draft lists the sum as 22. Verify it against the CSV. For quantity in all regions, report the sum and the mean. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-157",
+    "scenario": "normal",
+    "question": "For quantity in all regions, report the sum and the count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-158",
+    "scenario": "normal",
+    "question": "A draft lists the sum as 22. Verify it against the CSV. For quantity in all regions, report the sum and the count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-159",
+    "scenario": "normal",
+    "question": "For quantity in all regions, report the sum and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-160",
+    "scenario": "normal",
+    "question": "A draft lists the sum as 22. Verify it against the CSV. For quantity in all regions, report the sum and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-161",
+    "scenario": "normal",
+    "question": "For quantity in all regions, report the minimum and the maximum. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-162",
+    "scenario": "normal",
+    "question": "A draft lists the minimum as 2. Verify it against the CSV. For quantity in all regions, report the minimum and the maximum. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-163",
+    "scenario": "normal",
+    "question": "For quantity in all regions, report the minimum and the mean. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-164",
+    "scenario": "normal",
+    "question": "A draft lists the minimum as 2. Verify it against the CSV. For quantity in all regions, report the minimum and the mean. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-165",
+    "scenario": "normal",
+    "question": "For quantity in all regions, report the minimum and the count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-166",
+    "scenario": "normal",
+    "question": "A draft lists the minimum as 2. Verify it against the CSV. For quantity in all regions, report the minimum and the count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-167",
+    "scenario": "normal",
+    "question": "For quantity in all regions, report the minimum and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-168",
+    "scenario": "normal",
+    "question": "A draft lists the minimum as 2. Verify it against the CSV. For quantity in all regions, report the minimum and the missing count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-169",
+    "scenario": "normal",
+    "question": "For quantity in all regions, report the maximum and the mean. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-170",
+    "scenario": "normal",
+    "question": "A draft lists the maximum as 8. Verify it against the CSV. For quantity in all regions, report the maximum and the mean. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-171",
+    "scenario": "normal",
+    "question": "For quantity in all regions, report the maximum and the count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  },
+  {
+    "id": "answer-balance-v10-172",
+    "scenario": "normal",
+    "question": "A draft lists the maximum as 8. Verify it against the CSV. For quantity in all regions, report the maximum and the count. Use nonblank values for numeric statistics, count only nonblank values for the count, and count blank cells for the missing count. Round to two decimal places if needed."
+  }
+]

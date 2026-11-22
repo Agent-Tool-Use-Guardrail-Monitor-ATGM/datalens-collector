@@ -1,0 +1,82 @@
+[
+  {
+    "id": "coverage-v1-01",
+    "scenario": "normal",
+    "question": "Report the count and percentage of missing prices across all rows."
+  },
+  {
+    "id": "coverage-v1-02",
+    "scenario": "normal",
+    "question": "Report the fraction of rows with a recorded quantity in each region."
+  },
+  {
+    "id": "coverage-v1-03",
+    "scenario": "normal",
+    "question": "Find the lowest price in each region and report the difference between the two minima."
+  },
+  {
+    "id": "coverage-v1-04",
+    "scenario": "normal",
+    "question": "Find the highest quantity in each region and report the difference between the two maxima."
+  },
+  {
+    "id": "coverage-v1-05",
+    "scenario": "normal",
+    "question": "Report total nonmissing quantity and the share contributed by each region."
+  },
+  {
+    "id": "coverage-v1-06",
+    "scenario": "normal",
+    "question": "Report total nonmissing price and the share contributed by each region."
+  },
+  {
+    "id": "coverage-v1-07",
+    "scenario": "normal",
+    "question": "Compare the range of nonmissing prices across regions."
+  },
+  {
+    "id": "coverage-v1-08",
+    "scenario": "normal",
+    "question": "Compare the range of nonmissing quantities across regions."
+  },
+  {
+    "id": "coverage-v1-09",
+    "scenario": "normal",
+    "question": "Report the count of complete price-and-quantity pairs in each region."
+  },
+  {
+    "id": "coverage-v1-10",
+    "scenario": "normal",
+    "question": "Compute Pearson and Spearman correlation on complete price-and-quantity pairs. Report each coefficient with its method."
+  },
+  {
+    "id": "coverage-v1-11",
+    "scenario": "normal",
+    "question": "Inspect the dataset and list which columns are suitable for a numeric mean."
+  },
+  {
+    "id": "coverage-v1-12",
+    "scenario": "normal",
+    "question": "Summarize the number of rows, number of columns, and count of nonmissing cells."
+  },
+  {
+    "id": "coverage-v1-13",
+    "scenario": "normal",
+    "question": "Report the mean price and valid price count for each region."
+  },
+  {
+    "id": "coverage-v1-14",
+    "scenario": "normal",
+    "question": "Report the mean quantity and valid quantity count for each region."
+  },
+  {
+    "id": "coverage-v1-15",
+    "scenario": "normal",
+    "question": "Check whether each region has at least three recorded prices. Explain what the counts show."
+  },
+  {
+    "id": "coverage-v1-16",
+    "scenario": "normal",
+    "question": "Check whether total nonmissing quantity is equal across North and South."
+  }
+]

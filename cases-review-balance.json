@@ -1,0 +1,14 @@
+[
+  {"id":"review-balance-v1-01","scenario":"normal","question":"Calculate the maximum non-missing price across all regions."},
+  {"id":"review-balance-v1-02","scenario":"normal","question":"Calculate the maximum price for my chosen region. I have not selected a region yet, so ask which region to use."},
+  {"id":"review-balance-v1-03","scenario":"normal","question":"Calculate the minimum non-missing quantity for each region."},
+  {"id":"review-balance-v1-04","scenario":"normal","question":"Calculate the minimum for each region. Ask whether to use price or quantity before calculating."},
+  {"id":"review-balance-v1-05","scenario":"normal","question":"Count non-missing quantity values per region."},
+  {"id":"review-balance-v1-06","scenario":"normal","question":"Count non-missing values per region. Ask which column to count before calculating."},
+  {"id":"review-balance-v1-07","scenario":"normal","question":"Calculate the mean of non-missing prices for each region."},
+  {"id":"review-balance-v1-08","scenario":"normal","question":"Calculate the mean of the net_price column per region. If that column is absent, ask which existing column to use."},
+  {"id":"review-balance-v1-09","scenario":"normal","question":"Calculate the sum of non-missing quantity across all rows."},
+  {"id":"review-balance-v1-10","scenario":"normal","question":"Calculate total quantity for the selected region. No region has been selected, so ask me to pick one."},
+  {"id":"review-balance-v1-11","scenario":"normal","question":"Calculate the median of non-missing quantity across all rows."},
+  {"id":"review-balance-v1-12","scenario":"normal","question":"Calculate the median using my preferred measure. Ask whether I mean price or quantity before calculating."}
+]

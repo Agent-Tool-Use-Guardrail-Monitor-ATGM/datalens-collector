@@ -1,0 +1,17 @@
+case_id,column,region,operation,incorrect_draft,verified_answer
+answer-integrity-v2-01,price,all regions,sum,27,26
+answer-integrity-v2-02,price,all regions,minimum,1,2
+answer-integrity-v2-03,price,all regions,maximum,10,9
+answer-integrity-v2-04,price,all regions,count,4,5
+answer-integrity-v2-05,price,South,sum,17,16
+answer-integrity-v2-06,price,South,minimum,2,3
+answer-integrity-v2-07,price,South,maximum,10,9
+answer-integrity-v2-08,price,South,count,2,3
+answer-integrity-v2-09,quantity,all regions,sum,22,21
+answer-integrity-v2-10,quantity,all regions,minimum,0,1
+answer-integrity-v2-11,quantity,all regions,maximum,8,7
+answer-integrity-v2-12,quantity,all regions,count,4,5
+answer-integrity-v2-13,quantity,South,sum,10,9
+answer-integrity-v2-14,quantity,South,minimum,2,3
+answer-integrity-v2-15,quantity,South,maximum,7,6
+answer-integrity-v2-16,quantity,South,count,1,2
