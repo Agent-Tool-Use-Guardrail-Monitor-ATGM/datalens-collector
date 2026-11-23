@@ -476,6 +476,17 @@ def update_unified(store, event_text="", review_text=""):
                     row[key] = previous[key]
             runs[row["run_id"]] = {**previous, **row}
 
+    for record in events.values():
+        run = runs.get(record["event"].get("run_id"), {})
+        if run.get("review_label"):
+            record["review_label"] = run["review_label"]
+            record["review_notes"] = run.get("review_notes", "")
+            record.setdefault("automatic_label", record["label"])
+            record["label"] = run["review_label"]
+    if "label" in fields or any(run.get("review_label") for run in runs.values()):
+        fields["label"] = None
+        for run in runs.values():
+            run["label"] = run.get("review_label") or run.get("automatic_label", "")
     event_text = "".join(json.dumps(record) + "\n" for record in events.values())
     review = io.StringIO(newline="")
     if fields:
