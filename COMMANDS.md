@@ -47,18 +47,62 @@ Pop-Location
 Stop if a command fails. The migration command applies any pending migrations.
 Wait for the API to return ready and check that agent-worker is running before
 submitting work.
-## 2. Collect real events
+## 2. Sign in to local Keycloak
 
-Obtain an access token by signing in through the configured Keycloak PKCE client.
-In the following terminal, paste the access token without the `Bearer ` prefix.
+Keep the same PowerShell session for sign-in and collection. The command opens
+Keycloak in your browser. Sign in with your activated DataLens test account.
+Copy the full callback URL into the hidden prompt. If no frontend is running
+on port 5173, copy the URL from the address bar of the connection error page.
+
+```powershell
+$issuer = 'http://localhost:8081/realms/datalens'
+$redirect = 'http://localhost:5173/auth/callback'
+$verifier = [guid]::NewGuid().ToString('N') + [guid]::NewGuid().ToString('N')
+$state = [guid]::NewGuid().ToString('N')
+$sha = [Security.Cryptography.SHA256]::Create()
+$challenge = [Convert]::ToBase64String(
+    $sha.ComputeHash([Text.Encoding]::ASCII.GetBytes($verifier))
+).TrimEnd('=').Replace('+', '-').Replace('/', '_')
+$sha.Dispose()
+$escapedRedirect = [uri]::EscapeDataString($redirect)
+Start-Process "$issuer/protocol/openid-connect/auth?client_id=agent-web&response_type=code&scope=openid&redirect_uri=$escapedRedirect&code_challenge_method=S256&code_challenge=$challenge&state=$state&prompt=login"
+
+$callback = [uri]([Net.NetworkCredential]::new('', (Read-Host 'Paste full callback URL' -AsSecureString)).Password)
+$code = [regex]::Match($callback.Query, '[?&]code=([^&]+)')
+if ($callback.GetLeftPart([UriPartial]::Path) -ne $redirect -or
+    $callback.Query -notmatch "[?&]state=$state(?:&|$)" -or -not $code.Success) {
+    throw 'Invalid login callback. Start again from the top.'
+}
+
+$tokenResponse = Invoke-RestMethod -ErrorAction Stop -Method Post `
+    -Uri "$issuer/protocol/openid-connect/token" `
+    -ContentType 'application/x-www-form-urlencoded' -Body @{
+        grant_type = 'authorization_code'
+        client_id = 'agent-web'
+        code = [uri]::UnescapeDataString($code.Groups[1].Value)
+        redirect_uri = $redirect
+        code_verifier = $verifier
+    }
+$env:DATALENS_ACCESS_TOKEN = $tokenResponse.access_token
+"Token lifetime: $($tokenResponse.expires_in) seconds"
+Remove-Variable tokenResponse, callback, code, verifier
+
+Invoke-RestMethod -ErrorAction Stop 'http://127.0.0.1:8000/auth/me' `
+    -Headers @{ Authorization = "Bearer $env:DATALENS_ACCESS_TOKEN" } |
+    Select-Object subject, roles, email_verified
+```
+
+If `/auth/me` returns 401, repeat sign-in and use the callback from the new
+browser login.
+
+## 3. Send scenarios and collect events
+
 For the PostgreSQL DSN, use a `postgresql://` URL with read access to
 `public.agent_event_outbox`. Do not paste either value into source files.
 
 ```powershell
 cd "$env:USERPROFILE\Desktop\ost-sm-project\services\datalens-collector"
-$env:DATALENS_ACCESS_TOKEN = [Net.NetworkCredential]::new('', (Read-Host 'Keycloak access token' -AsSecureString)).Password
 $env:DATALENS_TELEMETRY_DSN = [Net.NetworkCredential]::new('', (Read-Host 'PostgreSQL DSN' -AsSecureString)).Password
-Invoke-RestMethod http://localhost:8000/auth/me -Headers @{ Authorization = "Bearer $env:DATALENS_ACCESS_TOKEN" } | Select-Object subject, roles
 $stamp = Get-Date -Format 'yyyyMMdd-HHmmss'
 .\.venv\Scripts\python.exe collector.py batch --url http://127.0.0.1:8000 --campaign study-v1 --max-runs 2 --output "captures/study-$stamp.jsonl" --review "captures/study-$stamp.csv" --sql "captures/study-$stamp.sql"
 ```
@@ -79,7 +123,7 @@ SQL for a separate SQLite research database. Requests and responses are saved
 in `captures/collector.sqlite`. An injected scenario is not a confirmed attack
 success. Review the behavior before assigning a label.
 
-## 3. Expanded suite and export recovery
+## 4. Expanded suite and export recovery
 
 ### Run the 16-case suite
 
@@ -106,7 +150,7 @@ $stamp = Get-Date -Format 'yyyyMMdd-HHmmss'
 .\.venv\Scripts\python.exe collector.py export --campaign study-v1 --output "captures/recovered-$stamp.jsonl" --review "captures/recovered-$stamp.csv" --sql "captures/recovered-$stamp.sql"
 ```
 
-## 4. Stop services
+## 5. Stop services
 
 Wait for the batch to finish, then run:
 
