@@ -1,6 +1,6 @@
 # Run the DataLens event collector
 
-These commands use Windows PowerShell from the existing workspace. Start Docker
+These commands use Windows PowerShell. Clone the DataLens repositories into sibling directories under a folder of your choice. Start in the datalens-collector checkout and set $collectorRoot = (Get-Location).Path once in this terminal. Start Docker
 Desktop first. Docker Compose runs the agent API and worker. Run the collector in PowerShell.
 Kafka is not required to collect and export events.
 
@@ -10,13 +10,14 @@ The existing Keycloak realm must have the `agent-web` client and an activated
 test account with the `agent-api:user` role. The agent `.env` needs its
 PostgreSQL URL and `SERVICE_MODEL_API_KEY`. The worker also needs the existing
 Keycloak client-secret and token-encryption-key files. Follow the
-[local setup guide](../../docs/plans/frontend/LOCAL_DEVELOPMENT.md) if any of
+[local setup guide](https://github.com/Agent-Tool-Use-Guardrail-Monitor-ATGM/datalens-agent/blob/main/LOCAL_DEVELOPMENT.md) if any of
 these are missing.
 
 Install collector dependencies once:
 
+
 ```powershell
-cd "$env:USERPROFILE\Desktop\ost-sm-project\services\datalens-collector"
+$collectorRoot = (Get-Location).Path
 if (!(Test-Path .venv)) { py -3.12 -m venv .venv }
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 New-Item -ItemType Directory -Force captures | Out-Null
@@ -28,12 +29,12 @@ Close the host API and worker terminals from the previous setup before
 starting their containers. The Docker API uses port 8000 by default.
 
 ```powershell
-cd "$env:USERPROFILE\Desktop\ost-sm-project"
-Push-Location services/datalens-identity
+Set-Location (Split-Path $collectorRoot -Parent)
+Push-Location datalens-identity
 docker compose --env-file .env.postgres -f compose.yaml -f compose.runtime.yaml up -d --wait
 Pop-Location
 
-Push-Location services/datalens-agent
+Push-Location datalens-agent
 $agentCompose = @('--env-file', '.env.postgres', '-f', 'compose.yaml', '-f', 'compose.runtime.yaml')
 $env:AGENT_CONTAINER_DATABASE_URL = .\.venv\Scripts\python.exe -c "from dotenv import dotenv_values; from sqlalchemy.engine import make_url; print(make_url(dotenv_values('.env')['DATABASE_URL']).set(host='agent-postgres', port=5432).render_as_string(hide_password=False))"
 docker compose @agentCompose build agent-api
@@ -101,7 +102,7 @@ For the PostgreSQL DSN, use a `postgresql://` URL with read access to
 `public.agent_event_outbox`. Do not paste either value into source files.
 
 ```powershell
-cd "$env:USERPROFILE\Desktop\ost-sm-project\services\datalens-collector"
+Set-Location $collectorRoot
 $env:DATALENS_TELEMETRY_DSN = [Net.NetworkCredential]::new('', (Read-Host 'PostgreSQL DSN' -AsSecureString)).Password
 $stamp = Get-Date -Format 'yyyyMMdd-HHmmss'
 .\.venv\Scripts\python.exe collector.py batch --url http://127.0.0.1:8000 --campaign study-v1 --max-runs 2 --output "captures/study-$stamp.jsonl" --review "captures/study-$stamp.csv" --sql "captures/study-$stamp.sql"
@@ -155,11 +156,11 @@ $stamp = Get-Date -Format 'yyyyMMdd-HHmmss'
 Wait for the batch to finish, then run:
 
 ```powershell
-cd "$env:USERPROFILE\Desktop\ost-sm-project"
-Push-Location services/datalens-agent
+Set-Location (Split-Path $collectorRoot -Parent)
+Push-Location datalens-agent
 docker compose --env-file .env.postgres -f compose.yaml -f compose.runtime.yaml down
 Pop-Location
-Push-Location services/datalens-identity
+Push-Location datalens-identity
 docker compose --env-file .env.postgres -f compose.yaml -f compose.runtime.yaml down
 Pop-Location
 ```
